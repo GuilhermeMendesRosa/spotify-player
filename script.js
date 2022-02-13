@@ -103,6 +103,3 @@ function segundosParaMinutos (segundos) {
 function definirTempo(){
     musica.currentTime = slider.value;  
 }
-
-
-oi
