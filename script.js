@@ -48,7 +48,7 @@ document.querySelector(".anterior").addEventListener("click", () => {
 document.querySelector(".proxima").addEventListener("click", () => {
     tocando = false;
     index++;
-    if (index > 2) {
+    if (index > 3) {
         index = 0;
     }
     renderizarMusica(index);
