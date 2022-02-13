@@ -2,7 +2,7 @@ let musicas = [
     {titulo:"Black Summer", artista:"Red Hot Chili Peppers", src:"./assets/audios/black.mp3", img:"./assets/images/rhcp.jpg", background:"background-image: linear-gradient(30Deg, #1F1F1F,  #DB2E28, #212121);"}, 
     {titulo:"Mask Off Old-School", artista:"2pac", src:"./assets/audios/2pac.mp3", img:"./assets/images/2pac.jpg", background:"background-image: linear-gradient(30Deg, #A0A0A0,  #252525, #7A7B7A);"},
     {titulo:"starboy slowed", artista:"The Weeknd", src:"./assets/audios/starboy-slowed.mp3", img:"./assets/images/starboy.jpg", background:"background-image: linear-gradient(30Deg, #B871DB,  #966ADD, #352741);"},
-    {titulo:"stressed out (slowed + reverb)", artista:"Twenty One Pilots", src:"./assets/audios/stressed-out.mp3", img:"./assets/images/stress.jpg", background:"background-image: linear-gradient(30Deg, #9C6C84,  #3B3758, #997927);"}
+    {titulo:"stressed out slowed", artista:"Twenty One Pilots", src:"./assets/audios/stressed-out.mp3", img:"./assets/images/stress.jpg", background:"background-image: linear-gradient(30Deg, #9C6C84,  #3B3758, #997927);"}
 
 ]
 
