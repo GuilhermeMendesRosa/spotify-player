@@ -61,9 +61,9 @@ document.querySelector(".proxima").addEventListener("click", () => {
 function renderizarMusica (ìndex) {
     musica.setAttribute("src", musicas[index].src);
     musica.addEventListener('loadeddata', () => {
+        imagem.src = musicas[index].img;
         nomeMusica.textContent = musicas[index].titulo;
         nomeArtista.textContent = musicas[index].artista;
-        imagem.src = musicas[index].img;
         duracaoMusica.textContent = segundosParaMinutos(Math.floor(musica.duration))
         background.setAttribute("style", musicas[index].background)
         slider.max = Math.floor(musica.duration);
